@@ -2,4 +2,11 @@
 gedit history # created blank history file
 
 git add -u history  # -u keeps track of added file 
-git add -A  #adds & updates tracking for files that changed names or were deleted
+git add -A  #adds & updates tracking for files that changed names or were deleted; use add everytime after applying changes
+
+git commit -m "saved file was not uploaded in previous attempt"
+# changes are recorded on local repo
+it push https://github.com/Morsu/test-repo
+
+
+
