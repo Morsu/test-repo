@@ -1,0 +1,6 @@
+echo get history
+echo
+gedit history
+gedit history
+* master
+  testbranchname
