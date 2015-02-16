@@ -1,6 +1,7 @@
-echo get history
-echo
-gedit history
-gedit history
-* master
-  testbranchname
+
+gedit history # created blank history file
+
+git add -u history  # -u keeps track of added file 
+git add -A  #adds & updates tracking for files that changed names or were deleted
+
+
