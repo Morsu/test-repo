@@ -1,4 +1,4 @@
-# What have I done
+#What have I done
 
 * git remote add origin https://github.com/Morsu/test-repo
 
@@ -11,6 +11,6 @@
 # changes are recorded on local repo
 * git push https://github.com/Morsu/test-repo
 
-## Branches
+##Branches
 * git checkout 
 

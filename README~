@@ -1,16 +1,16 @@
+# What have I done
 
-git remote add origin https://github.com/Morsu/test-repo
+* git remote add origin https://github.com/Morsu/test-repo
 
-gedit history # created blank history file
+* gedit history # created blank history file
 
-git add -u history  # -u keeps track of added file 
-git add -A  #adds & updates tracking for files that changed names or were deleted; use add everytime after applying changes
+* git add -u history  # -u keeps track of added file 
+* git add -A  #adds & updates tracking for files that changed names or were deleted; use add everytime after applying changes
 
-git commit -m "saved file was not uploaded in previous attempt"
+* git commit -m "saved file was not uploaded in previous attempt"
 # changes are recorded on local repo
-git push https://github.com/Morsu/test-repo
+* git push https://github.com/Morsu/test-repo
 
-
-
-
+## Branches
+* git checkout 
 
