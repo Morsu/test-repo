@@ -24,7 +24,6 @@ current origin=https://github.com/Morsu/test-repo
 can be checked with command: 
 git remote -v
 
-
 git remote add tempbranch origin
 git push origin tempbrach 
 git push origin --delete temp
