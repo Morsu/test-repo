@@ -1,14 +1,19 @@
+<<<<<<< HEAD:README~
 # git warmup
+=======
+#What have I done
+>>>>>>> master:README
 
-git remote add origin https://github.com/Morsu/test-repo
+* git remote add origin https://github.com/Morsu/test-repo
 
-gedit history # created blank history file
+* gedit history # created blank history file
 
-git add -u history  # -u keeps track of added file 
-git add -A  #adds & updates tracking for files that changed names or were deleted; use add everytime after applying changes
+* git add -u history  # -u keeps track of added file 
+* git add -A  #adds & updates tracking for files that changed names or were deleted; use add everytime after applying changes
 
-git commit -m "saved file was not uploaded in previous attempt"
+* git commit -m "saved file was not uploaded in previous attempt"
 # changes are recorded on local repo
+<<<<<<< HEAD:README~
 git push https://github.com/Morsu/test-repo
 
 ## branches, local repo
@@ -31,5 +36,10 @@ git push origin --delete temp
 
 
 
+=======
+* git push https://github.com/Morsu/test-repo
+>>>>>>> master:README
 
+##Branches
+* git checkout 
 
