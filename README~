@@ -1,4 +1,8 @@
-# What have I done
+<<<<<<< HEAD:README~
+# git warmup
+=======
+#What have I done
+>>>>>>> master:README
 
 * git remote add origin https://github.com/Morsu/test-repo
 
@@ -9,8 +13,33 @@
 
 * git commit -m "saved file was not uploaded in previous attempt"
 # changes are recorded on local repo
-* git push https://github.com/Morsu/test-repo
+<<<<<<< HEAD:README~
+git push https://github.com/Morsu/test-repo
 
-## Branches
+## branches, local repo
+
+git branch 
+git checkout -b tempbranch # -b creates new branch
+git branch -d tempbranch # delete
+
+
+## using other branches for remote repo
+
+current origin=https://github.com/Morsu/test-repo
+can be checked with command: 
+git remote -v
+
+git remote add tempbranch origin
+git push origin tempbrach 
+git push origin --delete temp
+
+
+
+
+=======
+* git push https://github.com/Morsu/test-repo
+>>>>>>> master:README
+
+##Branches
 * git checkout 
 
